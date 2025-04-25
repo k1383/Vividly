@@ -8,7 +8,9 @@
     --Inter : "Inter", sans-serif;
 }
 
-
+body{
+    max-width: 320px;
+}
 
 
 header h1 {
