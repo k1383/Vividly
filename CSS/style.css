@@ -7,3 +7,14 @@
     --Roboto : "Roboto", sans-serif;
     --Inter : "Inter", sans-serif;
 }
+
+
+
+
+header h1 {
+    font-family: var(--Shrikhand);
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
