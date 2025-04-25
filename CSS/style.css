@@ -12,6 +12,10 @@ body{
     max-width: 320px;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
 
 header h1 {
     font-family: var(--Shrikhand);
