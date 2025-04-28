@@ -108,5 +108,25 @@
         font-family: var(--Roboto);
         font-size: 18px;
         font-weight: 700;
+        text-indent: 10px;
+    }
+
+    #Section-4  article i {
+        color: #FF7800;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    #Section-4  article {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #Section-4 div {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    #Section-4 div i {
+        font-weight: 400;
+        font-size: 20px;
     }
 }
