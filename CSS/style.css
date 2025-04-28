@@ -10,6 +10,8 @@
 
 @media screen and (max-width:767px) {
 
+    /* Header */
+
     header {
         display: flex;
         align-items: center;
@@ -28,5 +30,33 @@
     #burgermenu {
        font-size: 16px;
        font-weight: 900;
+    }
+
+    /* Section 1 */
+
+    #Section-1 h2 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size:24px;
+        text-align: center;
+    }
+
+    #Section-1 p {
+        font-family: var(--Roboto);
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #Section-1 input {
+        font-family: var(--Inter);
+    }
+
+    #btn {
+        font-family: var(--Inter);
+        font-weight: 500;
+        font-size: 12.26px;
+        border-radius: 30px;
+        
     }
 }
