@@ -76,7 +76,7 @@
         padding: 0 5px;
     }
 
-    #btn {
+    #btn1 {
         font-family: var(--Inter);
         font-weight: 500;
         font-size: 12.26px;
@@ -86,7 +86,6 @@
         background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
         box-shadow: 0px 4px 4px 0px #00000040;
         border: none;
-        
     }
 
     /* Section 2 */
@@ -160,6 +159,22 @@
         display: flex;
     }
 
+    #btn2 {
+        border-radius: 30px;
+        width: 103.75px;
+        height: 38px;
+        background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border: none;
+    }
+    #btn2 a {
+        font-family: var(--Roboto);
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
     /* Footer */
 
     footer {
@@ -172,13 +187,13 @@
         font-weight: 400;
         font-style: italic;
         font-size: 24px;
-        text-indent : 10px
+        text-indent : 10px /* Décalage de la première ligne */
     }
     footer p {
         font-family: var(--Roboto);
         font-weight: 300;
         font-size: 15px;
-        text-indent : 10px
+        text-indent : 10px /* Décalage de la première ligne */
     }
     footer a {
         text-decoration: none;
