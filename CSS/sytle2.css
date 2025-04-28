@@ -76,5 +76,14 @@
     }
     
     /* Section 3 */
-    #Section-3
+
+    #Section-3 {
+        border-bottom: 1px solid #FF7800;
+    }
+
+    #Section-2 h4 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 24px;
+    }
 }
