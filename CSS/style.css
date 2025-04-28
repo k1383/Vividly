@@ -8,19 +8,21 @@
     --Inter : "Inter", sans-serif;
 }
 
-body{
-    max-width: 320px;
-}
 
-header {
-    display: flex;
-    justify-content: center;
-}
 
-header h1 {
-    font-family: var(--Shrikhand);
-    font-weight: 400;
-    font-size: 30px;
-    font-style: italic;
-    text-align: center;
+@media screen and (max-width:767px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    header h1 {
+        font-family: var(--Shrikhand);
+        font-weight: 400;
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+    }
+
 }
