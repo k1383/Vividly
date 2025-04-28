@@ -35,7 +35,7 @@
     /* Section 1 */
 
     #Section-1 {
-        background-color: #FFAE00;
+        /* background-color: #FFAE00; */
     }
 
     #Section-1 h2 {
@@ -53,7 +53,18 @@
     }
 
     #Section-1 input {
+        box-shadow: 0px 4px 15px 0px #00000026;
+        background: #FFAE00;
+        border: none;
+        border-radius: 20px;
+        padding: 9px 9px;
+    }
+
+    ::placeholder {
         font-family: var(--Inter);
+        color: black;
+        font-size: 15.13px;
+        font-weight: 400;
     }
 
     #btn {
@@ -65,5 +76,34 @@
         background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
         box-shadow: 0px 4px 4px 0px #00000040;
         border: none;
+    }
+
+    /* Section 2 */
+
+    #Section-2 h3 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    #Section-2 ul {
+        list-style: none;
+    }
+
+    #Section-2 a {
+        text-decoration: none;
+        color: black;
+        font-family: var(--Roboto);
+        font-weight: 500;
+        font-size: 16px;
+        box-shadow: 0px 4px 15px 0px #00000026;
+        border-radius: 8px;
+    }
+
+    /* Section 3 */
+
+    #Section-3 img {
+        width: 324px;
+        height: 140px;
     }
 }
