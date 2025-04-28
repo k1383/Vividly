@@ -149,4 +149,24 @@
     #Section-3 article div {
         display: flex;
     }
+
+    /* Footer */
+
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+    footer h2 {
+        font-family: var(--Shrikhand);
+        font-weight: 400;
+        font-style: italic;
+        font-size: 24px;
+    }
+
+    footer p {
+        font-family: var(--Roboto);
+        font-weight: 300;
+        font-size: 15px;
+    }
 }
