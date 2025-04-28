@@ -102,8 +102,49 @@
 
     /* Section 3 */
 
-    #Section-3 img {
+    #Section-3 {
+        border-radius: 20px;
+        /* background-color: #FFAE00; */
+    }
+
+    #Constructeur {
         width: 324px;
         height: 140px;
+    }
+
+    #Section-3 article {
+        background-color: white;
+    }
+
+    #Section-3 h4 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 24px;    
+    }
+
+    #Section-3 h5 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    #Section-3 {
+        font-family: var(--Roboto);
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    #Like {
+        width: 20px;
+        height: 20px;
+    }
+
+    #Section-3 hr {
+        color: #FF7800;
+        font-size: 1px;
+    }
+
+    #Section-3 article div {
+        display: flex;
     }
 }
