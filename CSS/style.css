@@ -172,11 +172,13 @@
         font-weight: 400;
         font-style: italic;
         font-size: 24px;
+        text-indent : 10px
     }
     footer p {
         font-family: var(--Roboto);
         font-weight: 300;
         font-size: 15px;
+        text-indent : 10px
     }
     footer a {
         text-decoration: none;
