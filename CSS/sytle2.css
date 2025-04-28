@@ -47,6 +47,7 @@
         font-family: var(--Roboto);
         font-weight: 700;
         font-size: 24px;
+        text-indent: 20px;
     }
     #Like {
         width: 20px;
@@ -73,6 +74,7 @@
         font-family: var(--Roboto);
         font-weight: 300;
         font-size: 15px;
+        margin: 0 15px ;
     }
     
     /* Section 3 */
@@ -81,9 +83,30 @@
         border-bottom: 1px solid #FF7800;
     }
 
-    #Section-2 h4 {
+    #Section-3 h4 {
         font-family: var(--Roboto);
         font-weight: 700;
         font-size: 24px;
+    }
+
+    /* Section 4 */
+
+    #Section-4 h5 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    #Section-4 p {
+        font-family: var(--Roboto);
+        font-weight: 300;
+        font-size: 15px;
+        color: #252525;
+    }
+
+    #Section-4 h6 {
+        font-family: var(--Roboto);
+        font-size: 18px;
+        font-weight: 700;
     }
 }
