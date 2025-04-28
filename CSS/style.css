@@ -34,6 +34,10 @@
 
     /* Section 1 */
 
+    #Section-1 {
+        background-color: #FFAE00;
+    }
+
     #Section-1 h2 {
         font-family: var(--Roboto);
         font-weight: 700;
@@ -57,6 +61,9 @@
         font-weight: 500;
         font-size: 12.26px;
         border-radius: 30px;
-        
+        padding: 9px 9px;
+        background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border: none;
     }
 }
