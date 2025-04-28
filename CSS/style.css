@@ -39,26 +39,22 @@
         background-color: #FFAE00; 
         padding: 15px 0;
     }
-
     #Section-1 h2 {
         font-family: var(--Roboto);
         font-weight: 700;
         font-size:24px;
         text-align: center;
     }
-
     #Section-1 p {
         font-family: var(--Roboto);
         font-weight: 300;
         font-size: 15px;
         text-align: center;
     }
-
     #Section-1 article {
         width: 324px;
         height: 89px;
     }
-
     #Section-1 input {
         box-shadow: 0px 4px 15px 0px #00000026;
         background: #FFAE00;
@@ -67,7 +63,6 @@
         height: 34px;
         width: 324px;
     }
-
     ::placeholder {
         font-family: var(--Inter);
         color: black;
@@ -75,7 +70,6 @@
         font-weight: 400;
         padding: 0 5px;
     }
-
     #btn1 {
         font-family: var(--Inter);
         font-weight: 500;
@@ -95,19 +89,8 @@
         font-family: var(--Roboto);
         font-weight: 700;
         font-size: 24px;
+        text-indent : 10px 
     }
-    
-    #Section-2 ul {
-        list-style: none;
-    }
-    
-    #Section-2 li {
-        box-shadow: 0px 4px 15px 0px #00000026;
-        border-radius: 8px;
-        width: 324px;
-        height: 59px;
-    }
-
     #Section-2 a {
         text-decoration: none;
         color: black;
@@ -115,6 +98,17 @@
         font-weight: 500;
         font-size: 16px;
     }
+    #Section-2 li {
+        list-style: none;
+        text-indent: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 15px 0px #00000026;
+        width: 324px;
+        height: 59px;
+        
+    }
+
+   
 
     /* Section 3 */
 
@@ -153,11 +147,6 @@
     #Like {
         width: 20px;
         height: 20px; 
-    }
-
-    #Section-3 hr {
-        color: #FF7800;
-        font-size: 1px;
     }
 
     #Section-3 article div {
