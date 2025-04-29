@@ -163,13 +163,7 @@ header a {
 #Section-4 form div {
     margin: 15px 0;
 }
-
-#btn1 a{
-    text-decoration: none;
-    color: black;
-}
-#btn1 {
-    border: 1px;
+#submit {
     border-radius: 30px;
     width: 93.14px;
     height: 33px;
