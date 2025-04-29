@@ -154,7 +154,7 @@ header a {
 }
 #Section-4 form input {
     border: 1px solid #FFAE00;
-    height: 15px;
+    height: 33px;
 }
 #Section-4 textarea {
     border: 1px solid #FFAE00;
@@ -162,6 +162,7 @@ header a {
 }
 #Section-4 form div {
     margin: 15px 0;
+    align-items: center;
 }
 #submit {
     height: 33px;
