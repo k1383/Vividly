@@ -166,10 +166,7 @@ header a {
     border: 1px solid #FFAE00;
     height: 168px;
 }
-#Section-4 form div {
-    margin: 15px 0;
-    align-items: center;
-}
+
 #submit {
     height: 33px;
     width: 93.14px;
@@ -177,6 +174,7 @@ header a {
     border-radius: 30px;
     background: linear-gradient(195.34deg, #FF7800 15.56%, #FFAE00 100%);
     box-shadow: 0px 4px 15px 0px #00000026;
+    
 } 
 
 /* Footer */
