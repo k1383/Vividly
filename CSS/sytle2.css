@@ -59,17 +59,39 @@ header a {
 
 /* Section 2 */
 
+#Section-2 {
+    border-top: 1px solid #FF7800;
+    border-bottom: 1px solid #FF7800;
+    margin: 15px 0;
+}
+
 #Section-2 h3 {
     font-family: var(--Roboto);
     font-weight: 700;
     font-size: 24px;
+    margin: 30px 10px;
 }
 
 #Section-2 p {
     font-family: var(--Roboto);
     font-weight: 300;
     font-size: 15px;
+    margin: 0px 10px;
 }
+
+/* Section 3 */
+
+#Section-3 h4 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 30px 10px;
+}
+#Section-3 a{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Form */
 
