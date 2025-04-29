@@ -36,8 +36,7 @@
     /* Section 1 */
 
     #Section-1 {
-        background-color: #FFAE00; 
-        padding: 15px 0;
+        
     }
     #Section-1 h2 {
         font-family: var(--Roboto);
@@ -51,17 +50,13 @@
         font-size: 15px;
         text-align: center;
     }
-    #Section-1 article {
-        width: 324px;
-        height: 89px;
-    }
     #Section-1 input {
         box-shadow: 0px 4px 15px 0px #00000026;
         background: #FFAE00;
         border: none;
         border-radius: 20px;
+        width: 300px;
         height: 34px;
-        width: 324px;
     }
     ::placeholder {
         font-family: var(--Inter);
@@ -83,95 +78,15 @@
         margin: 15px 0;
     }
 
-    /* Section 2 */
-
-    #Section-2 h3 {
-        font-family: var(--Roboto);
-        font-weight: 700;
-        font-size: 24px;
-        text-indent : 10px 
-    }
-    #Section-2 a {
-        text-decoration: none;
-        color: black;
-        font-family: var(--Roboto);
-        font-weight: 500;
-        font-size: 16px;
-        margin: 10px 10px;
-    }
-    #Section-2 li {
-        list-style: none;
-        text-indent: 10px;
-        border-radius: 8px;
-        box-shadow: 0px 4px 15px 0px #00000026;
-        width: 324px;
-        height: 59px;
+    #Section-1 article {
+        display: flex;
+        justify-content: center;
     }
 
    
 
-    /* Section 3 */
-
-    #Section-3 {
-        border-radius: 20px;
-        background-color: #FFAE00;
-    }
-
-    #Constructeur {
-        width: 324px;
-        height: 140px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    #Section-3 article {
-        background-color: white;
-        border-radius: 20px;
-        width: 324px;
-        height: 249px;
-    }
-
-    #Section-3 h4 {
-        font-family: var(--Roboto);
-        font-weight: 700;
-        font-size: 24px;    
-        text-indent: 10px;
-    }
-
-    #Section-3 h5 {
-        font-family: var(--Roboto);
-        font-weight: 700;
-        font-size: 18px;
-    }
-
-    #Section-3 {
-        font-family: var(--Roboto);
-        font-size: 15px;
-        font-weight: 300;
-    }
-
-    #Like {
-        width: 20px;
-        height: 20px; 
-    }
 
    
-
-    #btn2 {
-        border-radius: 30px;
-        width: 103.75px;
-        height: 38px;
-        background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
-        box-shadow: 0px 4px 4px 0px #00000040;
-        border: none;
-    }
-    #btn2 a {
-        font-family: var(--Roboto);
-        font-weight: 500;
-        font-size: 15px;
-        text-decoration: none;
-        color: black;
-    }
 
     /* Footer */
 
@@ -201,3 +116,22 @@
         }
     }
 }
+
+
+
+/*  #btn2 {
+        border-radius: 30px;
+        width: 103.75px;
+        height: 38px;
+        background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border: none;
+    }
+    #btn2 a {
+        font-family: var(--Roboto);
+        font-weight: 500;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    } 
+*/

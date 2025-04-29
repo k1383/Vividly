@@ -96,21 +96,18 @@
         font-weight: 700;
         font-size: 24px;
     }
-
     #Section-4 p {
         font-family: var(--Roboto);
         font-weight: 300;
         font-size: 15px;
         color: #252525;
     }
-
     #Section-4 h6 {
         font-family: var(--Roboto);
         font-size: 18px;
         font-weight: 700;
         text-indent: 10px;
     }
-
     #Section-4  article i {
         color: #FF7800;
         font-weight: 900;
