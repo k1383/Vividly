@@ -8,6 +8,10 @@
     --Inter : "Inter", sans-serif;
 }
 
+* {
+    margin: 0;
+}
+
 @media screen and (max-width:767px) {
 
     /* Header */
@@ -36,19 +40,22 @@
     /* Section 1 */
 
     #Section-1 {
-        
+        background-color: #FFAE00;
+        padding: 15px 0;
     }
     #Section-1 h2 {
         font-family: var(--Roboto);
         font-weight: 700;
         font-size:24px;
         text-align: center;
+        margin: 10px 0;
     }
     #Section-1 p {
         font-family: var(--Roboto);
         font-weight: 300;
         font-size: 15px;
         text-align: center;
+        margin: 10px 0;
     }
     #Section-1 input {
         box-shadow: 0px 4px 15px 0px #00000026;
@@ -57,6 +64,7 @@
         border-radius: 20px;
         width: 300px;
         height: 34px;
+        margin: 0 7px;
     }
     ::placeholder {
         font-family: var(--Inter);
@@ -64,6 +72,10 @@
         font-size: 15.13px;
         font-weight: 400;
         padding: 0 5px;
+    }
+    #Section-1 article {
+        display: flex;
+        justify-content: center;
     }
     #btn1 {
         font-family: var(--Inter);
@@ -78,10 +90,15 @@
         margin: 15px 0;
     }
 
-    #Section-1 article {
-        display: flex;
-        justify-content: center;
+    /* Section 2 */
+
+    #Section-2 h3 {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 24px;
     }
+
+    
 
    
 
