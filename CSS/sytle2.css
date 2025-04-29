@@ -44,93 +44,6 @@ header a {
 
 /* Section 1 */
 
-#Constructeur {
-    width: 390px;
-    height: 300px;
-}
-#Section-1 h2 {
-    font-family: var(--Roboto);
-    font-weight: 700;
-    font-size: 24px;
-    text-indent: 20px;
-}
-#Like {
-    width: 20px;
-    height: 20px;
-}
-
-/* Section 2 */
-
-#Section-2 {
-    width: 390;
-    height: 200;
-    border-top: 1px solid #FF7800;
-    border-bottom: 1px solid #FF7800;
-}
-
-#Section-2 h3 {
-    font-family: var(--Roboto);
-    font-weight: 700;
-    font-size: 24px;
-    text-indent: 10px;
-}
-
-#Section-2 p {
-    font-family: var(--Roboto);
-    font-weight: 300;
-    font-size: 15px;
-    margin: 0 15px ;
-}
-
-/* Section 3 */
-
-#Section-3 {
-    border-bottom: 1px solid #FF7800;
-}
-
-#Section-3 h4 {
-    font-family: var(--Roboto);
-    font-weight: 700;
-    font-size: 24px;
-}
-
-/* Section 4 */
-
-#Section-4 h5 {
-    font-family: var(--Roboto);
-    font-weight: 700;
-    font-size: 24px;
-}
-#Section-4 p {
-    font-family: var(--Roboto);
-    font-weight: 300;
-    font-size: 15px;
-    color: #252525;
-}
-#Section-4 h6 {
-    font-family: var(--Roboto);
-    font-size: 18px;
-    font-weight: 700;
-    text-indent: 10px;
-}
-#Section-4  article i {
-    color: #FF7800;
-    font-weight: 900;
-    font-size: 15px;
-}
-#Section-4  article {
-    display: flex;
-    justify-content: flex-start;
-}
-#Section-4 div {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-#Section-4 div i {
-    font-weight: 400;
-    font-size: 20px;
-}
 
 /* Form */
 
@@ -153,20 +66,20 @@ header a {
 footer {
     background-color: #252525;
     color: white;
-    padding: 1px 0;
+    padding: 15px 0;
 }
 footer h2 {
     font-family: var(--Shrikhand);
     font-weight: 400;
     font-style: italic;
     font-size: 24px;
-    text-indent : 10px /* Décalage de la première ligne */
+    margin: 15px 10px;
 }
 footer p {
     font-family: var(--Roboto);
     font-weight: 300;
-    font-size: 15px;
-    text-indent : 10px /* Décalage de la première ligne */
+    margin: 10px 10px;
+    font-size: 15px;        
 }
 footer a {
     text-decoration: none;
