@@ -61,7 +61,6 @@ header a {
 
 #Section-2 {
     border-top: 1px solid #FF7800;
-    border-bottom: 1px solid #FF7800;
     margin: 15px 0;
 }
 
@@ -81,6 +80,10 @@ header a {
 
 /* Section 3 */
 
+#Section-3 {
+    border-top: 1px solid #FF7800;
+    margin: 15px 0;
+}
 #Section-3 h4 {
     font-family: var(--Roboto);
     font-weight: 700;
@@ -92,6 +95,51 @@ header a {
     justify-content: center;
 }
 
+/* Section 4 */
+
+#Section-4 h5 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 10px;
+}
+
+#Section-4 article p {
+    font-family: var(--Roboto);
+    font-weight: 300;
+    font-size: 15px;
+    margin: 10px 10px;
+}
+#Section-4 article a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+        color: #FFAE00;
+    }
+}
+#Section-4 article i {
+    color: #FFAE00;
+    font-weight: 900;
+    font-size: 15px;
+}
+#Section-4 h6 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px 10px;
+}
+#Section-4 div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+#Section-4 div i {
+    font-weight: 400;
+    font-size: 20px;
+    &:hover {
+        color: #FFAE00;
+    }
+}
 
 
 /* Form */
