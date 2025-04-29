@@ -110,20 +110,20 @@
     footer {
         background-color: #252525;
         color: white;
-        padding: 1px 0;
+        padding: 15px 0;
     }
     footer h2 {
         font-family: var(--Shrikhand);
         font-weight: 400;
         font-style: italic;
         font-size: 24px;
-        text-indent : 10px /* Décalage de la première ligne */
+        margin: 15px 10px;
     }
     footer p {
         font-family: var(--Roboto);
         font-weight: 300;
-        font-size: 15px;
-        text-indent : 10px /* Décalage de la première ligne */
+        margin: 10px 10px;
+        font-size: 15px;        
     }
     footer a {
         text-decoration: none;
@@ -132,6 +132,7 @@
             color: #FF7800;
         }
     }
+    
 }
 
 
