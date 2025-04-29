@@ -84,7 +84,7 @@ header a {
     border-top: 1px solid #FF7800;
     margin: 15px 0;
 }
-#Section-3 h4 {
+#Section-3 h3 {
     font-family: var(--Roboto);
     font-weight: 700;
     font-size: 24px;
@@ -97,11 +97,16 @@ header a {
 
 /* Section 4 */
 
+#Section-4 {
+    border-top: 1px solid #FF7800;
+    margin: 30px 0;
+}
+
 #Section-4 h5 {
     font-family: var(--Roboto);
     font-weight: 700;
     font-size: 24px;
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
 #Section-4 article p {
