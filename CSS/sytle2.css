@@ -156,6 +156,12 @@ header a {
     border: 1px solid #FFAE00;
     height: 33px;
 }
+#Section-4 form ::placeholder {
+    color: black;
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 13.2px;
+}
 #Section-4 textarea {
     border: 1px solid #FFAE00;
     height: 168px;
