@@ -205,3 +205,7 @@ footer a {
         color: #FF7800;
     }
 }
+
+#Section-4 article span {
+    text-indent: 18px;
+}
