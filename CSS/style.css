@@ -122,14 +122,33 @@ header a {
     font-weight: 500;
     font-size: 16px;  
 }
-/*
-#Section-2 li {
-    list-style: none;
-    border: 1px solid white;
-    box-shadow: 0px 4px 15px 0px #00000026;
-    height: 59px;
-    width: 200px; /*modif
-} */
+
+/* Section 3 */ 
+
+#Section-3 {
+    background-color: #FFAE00;
+}
+#Section-3 img {
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#Section-3 h2 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 50px 10px ;
+}
+#Section-3 h3 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 18px;
+}
+#Section-3 p {
+    font-family: var(--Roboto);
+    font-weight: 300;
+    font-size: 15px;
+}
 
 
 
