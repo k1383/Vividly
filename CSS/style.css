@@ -40,13 +40,14 @@ header a {
 #burgermenu {
     font-size: 16px;
     font-weight: 900;
+    display: block;
 }
 
 /* Section 1 */
 
 #Section-1 {
     background-color: #FFAE00;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 #Section-1 h2 {
     font-family: var(--Roboto);
@@ -68,7 +69,7 @@ header a {
     border-radius: 20px;
     width: 300px;
     height: 34px;
-    margin: 0 7px;
+    margin: 10px 7px;
 }
 ::placeholder {
     font-family: var(--Inter);
@@ -109,32 +110,6 @@ header a {
     font-weight: 500;
     font-size: 16px;  
 }
-#Section-2 li {
-    list-style: none;
-    margin: 15px 0;
-    box-shadow: 0px 4px 15px 0px #00000026;
-    border-radius: 8px;
-}
-
-/* Section 3 */
-
-/* #Section-3 {
-    background-color: #FFAE00;
-} */
-
-#Section-3 h4 {
-    font-family: var(--Roboto);
-    font-weight: 700;
-    font-size: 24px;
-    margin: 0 10px;
-}
-
-#Section-3 img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-
 
 
 
