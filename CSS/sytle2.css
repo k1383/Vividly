@@ -170,9 +170,6 @@ header nav {
     border: 1px solid #FFAE00;
     height: 168px;
 }
-#checkbox {
-    padding: 10px;
-}
 #Section-4 label {
     font-family: var(--Inter);
     font-weight: 700;
