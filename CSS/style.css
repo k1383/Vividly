@@ -67,7 +67,7 @@ header a {
     background: #FFAE00;
     border: none;
     border-radius: 20px;
-    width: 280px;
+    width: 300px;
     height: 34px;
     margin: 10px 7px;
 }
@@ -160,6 +160,21 @@ header a {
 #Section-3 form {
     margin: 10px;
 }
+#btn2 {
+    border-radius: 30px;
+    width: 103.75px;
+    height: 38px;
+    background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: none;
+}
+#btn2 a {
+    font-family: var(--Roboto);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+} 
 
 
 /* Footer */
@@ -189,23 +204,3 @@ footer a {
         color: #FF7800;
     }
 }
-
-
-
-
-
- #btn1 {
-        border-radius: 30px;
-        width: 103.75px;
-        height: 38px;
-        background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
-        box-shadow: 0px 4px 4px 0px #00000040;
-        border: none;
-    }
-    #btn1 a {
-        font-family: var(--Roboto);
-        font-weight: 500;
-        font-size: 15px;
-        text-decoration: none;
-        color: black;
-    } 
