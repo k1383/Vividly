@@ -16,8 +16,6 @@ img {
     width: 100%;
 }
 
-
-
 /* Header */
 
 header {
@@ -67,9 +65,11 @@ header a {
     background: #FFAE00;
     border: none;
     border-radius: 20px;
-    width: 300px;
+    width: 280px;
     height: 34px;
     margin: 10px 7px;
+    /* display: block;
+    margin: 10px auto; */
 }
 ::placeholder {
     font-family: var(--Inter);
@@ -105,8 +105,7 @@ header a {
 }
 #Section-2 ul {
     list-style: none;
-    padding: 0;
-    
+    padding: 0; 
 }
 #Section-2 li {
     background-color: #fff;
@@ -175,7 +174,6 @@ header a {
     text-decoration: none;
     color: black;
 } 
-
 
 /* Footer */
 
