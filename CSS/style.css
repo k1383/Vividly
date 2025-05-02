@@ -62,12 +62,12 @@ header a {
     text-align: center;
     margin: 10px 0;
 }
-#Section-1 input {
+#Section-1 form input {
     box-shadow: 0px 4px 15px 0px #00000026;
     background: #FFAE00;
     border: none;
     border-radius: 20px;
-    width: 300px;
+    width: 280px;
     height: 34px;
     margin: 10px 7px;
 }
