@@ -194,7 +194,7 @@ footer a {
 
 
 
-/*  #btn2 {
+ #btn1 {
         border-radius: 30px;
         width: 103.75px;
         height: 38px;
@@ -202,11 +202,10 @@ footer a {
         box-shadow: 0px 4px 4px 0px #00000040;
         border: none;
     }
-    #btn2 a {
+    #btn1 a {
         font-family: var(--Roboto);
         font-weight: 500;
         font-size: 15px;
         text-decoration: none;
         color: black;
     } 
-*/
