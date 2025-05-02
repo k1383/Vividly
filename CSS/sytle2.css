@@ -171,7 +171,7 @@ header nav {
     height: 168px;
 }
 #checkbox {
-    margin: 10px;
+    padding: 10px;
 }
 #Section-4 label {
     font-family: var(--Inter);
