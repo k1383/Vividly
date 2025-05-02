@@ -272,10 +272,22 @@ footer a {
         object-fit: cover;
         display: block;
         margin: 10px auto;
+    }
+    /* Section 2 */
 
+    #Section-2 {
+        width: 990px;
+        display: block;
+        margin: 10px auto;
     }
 
     /* Section 3 */
+
+    #Section-3 {
+        width: 990px;
+        display: block;
+        margin: 50px auto;
+    }
 
     #Section-3 #Small {
         display: none;
@@ -288,9 +300,18 @@ footer a {
         justify-content:center ;
     }
 
+    /* Section 4 */
+
+    #Section-4 {
+        width: 990px;
+        display: block;
+        margin: 10px auto;
+    }
+
     /* Footer */
     footer {
         display: flex;
         justify-content: center;
     }
+
 }
