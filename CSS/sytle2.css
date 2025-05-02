@@ -167,6 +167,14 @@ header a {
     border: 1px solid #FFAE00;
     height: 168px;
 }
+#checkbox {
+    margin: 10px;
+}
+#Section-4 label {
+    font-family: var(--Inter);
+    font-weight: 700;
+    font-size: 13.75px;
+}
 #submit {
     height: 33px;
     width: 93.14px;
@@ -177,6 +185,7 @@ header a {
     display: block;
     margin: 0 auto;
 } 
+
 
 /* Footer */
 
