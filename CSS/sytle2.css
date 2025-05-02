@@ -247,8 +247,8 @@ footer a {
     #burgermenu {
         display: none;
     }
-    header nav {
-        display: block;
+    header nav  {
+        display: flex;
     }
     #Section-1 img {
         height: 300px;
