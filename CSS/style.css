@@ -67,7 +67,6 @@ header a {
     border-radius: 20px;
     width: 300px;
     height: 34px;
-    /* margin: 10px 7px; */
     display: block;
     margin: 10px auto;
 }
@@ -126,6 +125,7 @@ header a {
 
 #Section-3 {
     background-color: #FFAE00;
+    padding: 15px 0; 
 }
 #Section-3 #ImgConstructeur {
     height: 140px;
@@ -154,7 +154,7 @@ header a {
 #Section-3 article {
     background-color: white;
     border-radius: 20px;
-    margin: 10px;
+    margin: 15px;
 }
 #Section-3 form {
     margin: 10px;
@@ -166,6 +166,8 @@ header a {
     background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
     box-shadow: 0px 4px 4px 0px #00000040;
     border: none;
+    display: block;
+    margin: 30px auto;
 }
 #btn2 a {
     font-family: var(--Roboto);
