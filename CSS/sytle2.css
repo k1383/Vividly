@@ -270,6 +270,8 @@ footer a {
         height: 300px;
         width: 960px;
         object-fit: cover;
+        display: block;
+        margin: 10px auto;
 
     }
 
