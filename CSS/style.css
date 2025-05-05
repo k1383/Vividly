@@ -216,3 +216,52 @@ footer a {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+@media screen and (min-width:1440px) {
+    
+
+    /* Header */
+
+    #burgermenu {
+        display: none;
+    }
+    header nav {
+        display: flex;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    header li {
+        list-style: none;
+    }
+    header ul {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* Section 2 */
+
+    #Section-2  {
+        width: 960px;
+        display: block;
+        margin: 50px auto;
+    }
+
+    /* Section 3 */
+
+    #Section-3 {
+
+    }
+
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    footer li {
+        gap: 50px;
+        margin: 20px;
+    }
+}
