@@ -203,9 +203,16 @@ footer a {
 }
 
 @media screen and (min-width:768px) {
-    /* Header */
+    /* Section 1 */
     
     #Section-1 form input {
         width: 496.02px;
+    }
+
+    /* Section 3 */
+
+    #Section-3 div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
