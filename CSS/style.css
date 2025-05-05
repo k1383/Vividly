@@ -252,7 +252,9 @@ footer a {
     /* Section 3 */
 
     #Section-3 {
-
+        display: block;
+        margin: 0 auto;
+        width: 960px;
     }
 
     /* footer */

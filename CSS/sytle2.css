@@ -14,6 +14,11 @@
 img {
     width: 100%;
 }
+
+@keyframes loader {
+
+}
+
 /* Header */
 
 header {
@@ -77,6 +82,16 @@ header nav {
     font-weight: 300;
     font-size: 15px;
     margin: 0px 10px;
+}
+#Like {
+    display: none;
+    &:hover{
+        background-image: url("/IMG/thumbs-up-solid.svg");
+    }
+}
+#ImgLike {
+    width: 20px;
+    height: 20px;
 }
 
 /* Section 3 */
